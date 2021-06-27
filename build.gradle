@@ -37,7 +37,6 @@ dependencies {
     shadow('com.fasterxml.jackson.core:jackson-annotations:2.10.1')
     shadow('com.fasterxml.jackson.core:jackson-databind:2.10.1')
 
-    /*
     compile ("baritone:baritone:1.6.2-dev") {
         version {
             branch = "fabric/1.16.3"
@@ -47,7 +46,7 @@ dependencies {
         version {
             branch = "main"
         }
-    }*/
+    }
 }
 
 shadowJar {
