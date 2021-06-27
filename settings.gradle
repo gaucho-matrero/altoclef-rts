@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+    }
+}
+
+sourceControl {
+    gitRepository(URI.create("https://github.com/toccatina/altoclef.git")) {
+        producesModule("adris.altoclef:altoclef")
+    }
+    gitRepository(URI.create("https://gitlab.com/adrisj7/fabritone.git")) {
+        producesModule("baritone:baritone")
+    }
+}
